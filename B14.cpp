@@ -90,8 +90,6 @@ int main()
     return 0;
 }
 
-student@ioe-melab01-134:~$ g++ B14.cpp
-student@ioe-melab01-134:~$ ./a.out
 ---------DSAL PRACTICAL NO-7-------------
  Enter no. of cities: 7
 Enter city #0 (Airport Code): Nashik
