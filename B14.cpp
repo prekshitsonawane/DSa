@@ -89,3 +89,63 @@ int main()
     bfs(u, n, cities);
     return 0;
 }
+
+student@ioe-melab01-134:~$ g++ B14.cpp
+student@ioe-melab01-134:~$ ./a.out
+---------DSAL PRACTICAL NO-7-------------
+ Enter no. of cities: 7
+Enter city #0 (Airport Code): Nashik
+Enter city #1 (Airport Code): Pune
+Enter city #2 (Airport Code): Mumbai
+Enter city #3 (Airport Code): Nagpur
+Enter city #4 (Airport Code): Delhi
+Enter city #5 (Airport Code): Goa
+Enter city #6 (Airport Code): J.K
+
+ Your cities are: 
+city #0: Nashik
+city #1: Pune
+city #2: Mumbai
+city #3: Nagpur
+city #4: Delhi
+city #5: Goa
+city #6: J.K
+Enter distance between Nashik and Pune : 80
+Enter distance between Nashik and Mumbai : 200
+Enter distance between Nashik and Nagpur : 0
+Enter distance between Nashik and Delhi : 0
+Enter distance between Nashik and Goa : 0
+Enter distance between Nashik and J.K : 0
+Enter distance between Pune and Mumbai : 0
+Enter distance between Pune and Nagpur : 150
+Enter distance between Pune and Delhi : 0
+Enter distance between Pune and Goa : 0
+Enter distance between Pune and J.K : 0
+Enter distance between Mumbai and Nagpur : 0
+Enter distance between Mumbai and Delhi : 0
+Enter distance between Mumbai and Goa : 0
+Enter distance between Mumbai and J.K : 0
+Enter distance between Nagpur and Delhi : 0
+Enter distance between Nagpur and Goa : 0
+Enter distance between Nagpur and J.K : 0
+Enter distance between Delhi and Goa : 0
+Enter distance between Delhi and J.K : 100
+Enter distance between Goa and J.K : 715
+
+	Nashik		Pune		Mumbai		Nagpur		Delhi		Goa		J.K	
+Nashik|	0	|	80	|	200	|	0	|	0	|	0	|	0	
+
+Pune|	80	|	0	|	0	|	150	|	0	|	0	|	0	
+
+Mumbai|	200	|	0	|	0	|	0	|	0	|	0	|	0	
+
+Nagpur|	0	|	150	|	0	|	0	|	0	|	0	|	0	
+
+Delhi|	0	|	0	|	0	|	0	|	0	|	0	|	100	
+
+Goa|	0	|	0	|	0	|	0	|	0	|	0	|	715	
+
+J.K|	0	|	0	|	0	|	0	|	100	|	715	|	0	
+Enter Starting Vertex: 0
+DFS: -> Nashik ->Pune ->Nagpur ->Mumbai ->
+BFS:-> Nashik ->Pune ->Mumbai ->Nagpur ->
