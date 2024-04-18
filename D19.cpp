@@ -377,3 +377,222 @@ void dict::input_update()
     				  }while(ch!=6);
     				return 0;
 				}		
+
+/*===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+1
+
+Enter the keyword:
+A
+Enter the meaning of the keyword:
+Apple  
+
+Root node created successfully
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+1
+
+Enter the keyword:
+B
+Enter the meaning of the keyword:
+Ball
+Node added to right of A
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+1
+
+Enter the keyword:
+C
+Enter the meaning of the keyword:
+Cat
+Node added to right of B
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+1
+
+Enter the keyword:
+D
+Enter the meaning of the keyword:
+Dog
+Node added to right of C
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+2
+The words entered in the dictionary are:
+
+A = Apple
+
+B = Ball
+
+C = Cat
+
+D = Dog
+
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+3
+
+Enter a keyword to be deleted:
+C
+
+The word 'C' has been deleted.
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+4
+
+Enter the keyword to be searched:
+B
+
+Word found.
+B: Ball
+Number of comparisons needed: 2
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+5
+
+Enter the keyword to be updated:
+D
+
+Word found.
+D: Dog
+
+Enter the updated meaning of the keyword:
+Doll
+
+The meaning of 'D' has been updated.
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+2
+The words entered in the dictionary are:
+
+A = Apple
+
+B = Ball
+
+D = Doll
+
+===============================================
+
+**************DSA PRACTICAL(D19)***************
+
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+6
+
+Please enter a valid option!
